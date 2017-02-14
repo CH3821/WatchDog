@@ -63,3 +63,17 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
+
+WatchDog/WatchDog/Venders/FosSDK/include/FosCrypt.h
+
+WatchDog/WatchDog/Venders/FosSDK/include/FosDef.h
+
+WatchDog/WatchDog/Venders/FosSDK/include/fossdk.h
+
+WatchDog/WatchDog/Venders/FosSDK/include/HWDecoder.h
+
+WatchDog/WatchDog/Venders/FosSDK/lib/libFosCrypt.a
+
+WatchDog/WatchDog/Venders/FosSDK/lib/libFosSdk.a
+
+WatchDog/WatchDog/Venders/FosSDK/lib/libHWDecoder.a
