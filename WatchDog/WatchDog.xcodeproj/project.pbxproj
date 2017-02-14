@@ -15,6 +15,8 @@
 		A319AECB1E514E0F00B154D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A319AEC91E514E0F00B154D1 /* LaunchScreen.storyboard */; };
 		A319AED61E514E0F00B154D1 /* WatchDogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A319AED51E514E0F00B154D1 /* WatchDogTests.swift */; };
 		A319AEE11E514E0F00B154D1 /* WatchDogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A319AEE01E514E0F00B154D1 /* WatchDogUITests.swift */; };
+		A33AA25F1E52D2080054DC12 /* JCNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33AA25E1E52D2080054DC12 /* JCNavigationController.swift */; };
+		A33AA2611E52D21C0054DC12 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33AA2601E52D21C0054DC12 /* BaseViewController.swift */; };
 		A36D99E81E52ADDD005EFD9F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A36D99E71E52ADDD005EFD9F /* README.md */; };
 		A3B0F8971E515A8A00B78A09 /* libFosCrypt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B0F8941E515A8A00B78A09 /* libFosCrypt.a */; };
 		A3B0F8981E515A8A00B78A09 /* libFosSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B0F8951E515A8A00B78A09 /* libFosSdk.a */; };
@@ -56,6 +58,8 @@
 		A319AEDC1E514E0F00B154D1 /* WatchDogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchDogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A319AEE01E514E0F00B154D1 /* WatchDogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchDogUITests.swift; sourceTree = "<group>"; };
 		A319AEE21E514E0F00B154D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A33AA25E1E52D2080054DC12 /* JCNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCNavigationController.swift; sourceTree = "<group>"; };
+		A33AA2601E52D21C0054DC12 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		A36D99E71E52ADDD005EFD9F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A3B0F88F1E515A8A00B78A09 /* FosCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FosCrypt.h; sourceTree = "<group>"; };
 		A3B0F8901E515A8A00B78A09 /* FosDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FosDef.h; sourceTree = "<group>"; };
@@ -424,6 +428,8 @@
 		A3F256981E5158EA00C042C0 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				A33AA25E1E52D2080054DC12 /* JCNavigationController.swift */,
+				A33AA2601E52D21C0054DC12 /* BaseViewController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -626,8 +632,10 @@
 			files = (
 				A319AEC31E514E0F00B154D1 /* ViewController.swift in Sources */,
 				A319AEC11E514E0F00B154D1 /* AppDelegate.swift in Sources */,
+				A33AA25F1E52D2080054DC12 /* JCNavigationController.swift in Sources */,
 				A36D99E81E52ADDD005EFD9F /* README.md in Sources */,
 				A3B0F8AB1E51ABF500B78A09 /* FosSDKExtensions.swift in Sources */,
+				A33AA2611E52D21C0054DC12 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
