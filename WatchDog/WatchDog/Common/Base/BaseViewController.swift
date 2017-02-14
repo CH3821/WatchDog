@@ -14,6 +14,7 @@ class BaseViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        view.backgroundColor = Constants.Color.ViewController.background
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,4 +33,21 @@ class BaseViewController: UIViewController {
     }
     */
 
+}
+
+
+extension BaseViewController {
+    
+    override var prefersStatusBarHidden: Bool {
+        return false
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .portrait
+    }
+    
 }

@@ -16,6 +16,8 @@
 		A33AA25F1E52D2080054DC12 /* JCNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33AA25E1E52D2080054DC12 /* JCNavigationController.swift */; };
 		A33AA2611E52D21C0054DC12 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33AA2601E52D21C0054DC12 /* BaseViewController.swift */; };
 		A3440E9A1E52D8E6006ADEE9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3440E991E52D8E6006ADEE9 /* HomeViewController.swift */; };
+		A35CEAC51E52DF3B00F8208D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35CEAC41E52DF3B00F8208D /* UIColorExtension.swift */; };
+		A35CEAC71E52E2C600F8208D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35CEAC61E52E2C600F8208D /* Constants.swift */; };
 		A36D99E81E52ADDD005EFD9F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A36D99E71E52ADDD005EFD9F /* README.md */; };
 		A3B0F8971E515A8A00B78A09 /* libFosCrypt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B0F8941E515A8A00B78A09 /* libFosCrypt.a */; };
 		A3B0F8981E515A8A00B78A09 /* libFosSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B0F8951E515A8A00B78A09 /* libFosSdk.a */; };
@@ -58,6 +60,8 @@
 		A33AA25E1E52D2080054DC12 /* JCNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCNavigationController.swift; sourceTree = "<group>"; };
 		A33AA2601E52D21C0054DC12 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		A3440E991E52D8E6006ADEE9 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A35CEAC41E52DF3B00F8208D /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		A35CEAC61E52E2C600F8208D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A36D99E71E52ADDD005EFD9F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A3B0F88F1E515A8A00B78A09 /* FosCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FosCrypt.h; sourceTree = "<group>"; };
 		A3B0F8901E515A8A00B78A09 /* FosDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FosDef.h; sourceTree = "<group>"; };
@@ -233,6 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				A3B0F8AA1E51ABF500B78A09 /* FosSDKExtensions.swift */,
+				A35CEAC41E52DF3B00F8208D /* UIColorExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 		A3F2567B1E51579100C042C0 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				A35CEAC61E52E2C600F8208D /* Constants.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -627,11 +633,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A319AEC11E514E0F00B154D1 /* AppDelegate.swift in Sources */,
+				A35CEAC51E52DF3B00F8208D /* UIColorExtension.swift in Sources */,
 				A33AA25F1E52D2080054DC12 /* JCNavigationController.swift in Sources */,
 				A36D99E81E52ADDD005EFD9F /* README.md in Sources */,
 				A3B0F8AB1E51ABF500B78A09 /* FosSDKExtensions.swift in Sources */,
 				A3440E9A1E52D8E6006ADEE9 /* HomeViewController.swift in Sources */,
 				A33AA2611E52D21C0054DC12 /* BaseViewController.swift in Sources */,
+				A35CEAC71E52E2C600F8208D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

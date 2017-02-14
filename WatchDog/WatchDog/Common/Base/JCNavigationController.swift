@@ -14,6 +14,9 @@ class JCNavigationController: UINavigationController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        navigationBar.barTintColor = Constants.Color.NavigationController.barTint
+        navigationBar.titleTextAttributes = [NSFontAttributeName : Constants.Font.navigationBar,
+                                             NSForegroundColorAttributeName : Constants.Color.NavigationController.foreground]
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,4 +35,35 @@ class JCNavigationController: UINavigationController {
     }
     */
 
+}
+
+extension JCNavigationController {
+    
+    override var prefersStatusBarHidden: Bool {
+        
+        if let topViewController = topViewController {
+            return topViewController.prefersStatusBarHidden
+        } else {
+            return false
+        }
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        
+        if let topViewController = topViewController {
+            return topViewController.preferredStatusBarStyle
+        } else {
+            return .lightContent
+        }
+    }
+    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        
+        if let topViewController = topViewController {
+            return topViewController.supportedInterfaceOrientations
+        } else {
+            return .portrait
+        }
+    }
+    
 }
