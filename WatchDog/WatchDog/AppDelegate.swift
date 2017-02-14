@@ -16,7 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        // 初始化SDK
         setupFosSDK()
+        
+        // 加载Home Page 页面
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = JCNavigationController(rootViewController: HomeViewController())
+        window?.makeKeyAndVisible()
+        
         return true
     }
 
