@@ -17,6 +17,7 @@ class JCNavigationController: UINavigationController {
         navigationBar.barTintColor = Constants.Color.NavigationController.barTint
         navigationBar.titleTextAttributes = [NSFontAttributeName : Constants.Font.navigationBar,
                                              NSForegroundColorAttributeName : Constants.Color.NavigationController.foreground]
+        navigationBar.tintColor = UIColor.white
     }
 
     override func didReceiveMemoryWarning() {

@@ -10,11 +10,13 @@ import UIKit
 
 class BaseViewController: UIViewController {
 
+    // MARK: - Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         view.backgroundColor = Constants.Color.ViewController.background
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
     }
 
     override func didReceiveMemoryWarning() {

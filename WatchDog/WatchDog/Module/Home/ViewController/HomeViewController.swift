@@ -10,13 +10,32 @@ import UIKit
 
 class HomeViewController: BaseViewController {
 
+    // MARK: - Properties
+    private lazy var rightBarButton: UIBarButtonItem = {
+        let button = UIButton(type: .custom)
+        button.setImage(UIImage(named: "AddDevice"), for: .normal)
+        button.addTarget(self, action: #selector(rightBarButtonDidTap(sender:)), for: .touchUpInside)
+        button.sizeToFit()
+        return UIBarButtonItem(customView: button)
+    }()
+    
+    
+    // MARK: - Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         title = "Devices"
+        navigationItem.rightBarButtonItem = rightBarButton
     }
 
+    // MARK: - Event Response
+    func rightBarButtonDidTap(sender: UIButton) {
+        let vc = LanScanViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    // MARK: - Memory
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

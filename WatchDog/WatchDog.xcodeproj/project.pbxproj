@@ -16,6 +16,7 @@
 		A33AA25F1E52D2080054DC12 /* JCNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33AA25E1E52D2080054DC12 /* JCNavigationController.swift */; };
 		A33AA2611E52D21C0054DC12 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33AA2601E52D21C0054DC12 /* BaseViewController.swift */; };
 		A3440E9A1E52D8E6006ADEE9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3440E991E52D8E6006ADEE9 /* HomeViewController.swift */; };
+		A358B50B1E543B1700921DFC /* AddDevice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A358B50A1E543B1700921DFC /* AddDevice@2x.png */; };
 		A35CEAC51E52DF3B00F8208D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35CEAC41E52DF3B00F8208D /* UIColorExtension.swift */; };
 		A35CEAC71E52E2C600F8208D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35CEAC61E52E2C600F8208D /* Constants.swift */; };
 		A36D99E81E52ADDD005EFD9F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A36D99E71E52ADDD005EFD9F /* README.md */; };
@@ -23,7 +24,11 @@
 		A3B0F8981E515A8A00B78A09 /* libFosSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B0F8951E515A8A00B78A09 /* libFosSdk.a */; };
 		A3B0F8991E515A8A00B78A09 /* libHWDecoder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B0F8961E515A8A00B78A09 /* libHWDecoder.a */; };
 		A3B0F89F1E51622B00B78A09 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B0F89E1E51622B00B78A09 /* libstdc++.tbd */; };
-		A3B0F8AB1E51ABF500B78A09 /* FosSDKExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B0F8AA1E51ABF500B78A09 /* FosSDKExtensions.swift */; };
+		A3F246B31E5444B10021F2A5 /* SDKHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F246B21E5444B10021F2A5 /* SDKHelper.swift */; };
+		A3F246B51E5445120021F2A5 /* SDKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F246B41E5445120021F2A5 /* SDKExtension.swift */; };
+		A3F246B91E5452F40021F2A5 /* LanScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F246B81E5452F40021F2A5 /* LanScanViewController.swift */; };
+		A3F246BB1E5457780021F2A5 /* LanScanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F246BA1E5457780021F2A5 /* LanScanCell.swift */; };
+		A3F246BD1E54709F0021F2A5 /* DeviceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F246BC1E54709F0021F2A5 /* DeviceHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +65,7 @@
 		A33AA25E1E52D2080054DC12 /* JCNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCNavigationController.swift; sourceTree = "<group>"; };
 		A33AA2601E52D21C0054DC12 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		A3440E991E52D8E6006ADEE9 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A358B50A1E543B1700921DFC /* AddDevice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AddDevice@2x.png"; sourceTree = "<group>"; };
 		A35CEAC41E52DF3B00F8208D /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		A35CEAC61E52E2C600F8208D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A36D99E71E52ADDD005EFD9F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -72,7 +78,11 @@
 		A3B0F8961E515A8A00B78A09 /* libHWDecoder.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHWDecoder.a; sourceTree = "<group>"; };
 		A3B0F89A1E515E4500B78A09 /* WatchDog-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WatchDog-Bridging-Header.h"; sourceTree = "<group>"; };
 		A3B0F89E1E51622B00B78A09 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
-		A3B0F8AA1E51ABF500B78A09 /* FosSDKExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FosSDKExtensions.swift; sourceTree = "<group>"; };
+		A3F246B21E5444B10021F2A5 /* SDKHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKHelper.swift; sourceTree = "<group>"; };
+		A3F246B41E5445120021F2A5 /* SDKExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKExtension.swift; sourceTree = "<group>"; };
+		A3F246B81E5452F40021F2A5 /* LanScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanScanViewController.swift; sourceTree = "<group>"; };
+		A3F246BA1E5457780021F2A5 /* LanScanCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanScanCell.swift; sourceTree = "<group>"; };
+		A3F246BC1E54709F0021F2A5 /* DeviceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceHelper.swift; sourceTree = "<group>"; };
 		CDF1C45287667CDEEB236BB4 /* Pods_WatchDog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchDog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -144,7 +154,8 @@
 				A3F256771E51579100C042C0 /* Common */,
 				A3F256711E51578500C042C0 /* Module */,
 				A319AEC01E514E0F00B154D1 /* AppDelegate.swift */,
-				A34113CD1E52ACD900A8D52E /* Resource */,
+				A358B5081E543B1700921DFC /* Resource */,
+				A34113CD1E52ACD900A8D52E /* Supporting Files */,
 			);
 			path = WatchDog;
 			sourceTree = "<group>";
@@ -167,7 +178,7 @@
 			path = WatchDogUITests;
 			sourceTree = "<group>";
 		};
-		A34113CD1E52ACD900A8D52E /* Resource */ = {
+		A34113CD1E52ACD900A8D52E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				A3B0F89A1E515E4500B78A09 /* WatchDog-Bridging-Header.h */,
@@ -175,7 +186,27 @@
 				A319AEC91E514E0F00B154D1 /* LaunchScreen.storyboard */,
 				A319AECC1E514E0F00B154D1 /* Info.plist */,
 			);
-			name = Resource;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A358B5081E543B1700921DFC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A3F246AA1E543F1C0021F2A5 /* Add */,
+				A3F246AB1E543F260021F2A5 /* Analysis */,
+				A358B5091E543B1700921DFC /* Home */,
+				A3F246AC1E543F370021F2A5 /* Live */,
+				A3F246AF1E543F850021F2A5 /* Settings */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A358B5091E543B1700921DFC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A358B50A1E543B1700921DFC /* AddDevice@2x.png */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		A3B0F88D1E515A8A00B78A09 /* FosSDK */ = {
@@ -209,6 +240,34 @@
 			path = lib;
 			sourceTree = "<group>";
 		};
+		A3F246AA1E543F1C0021F2A5 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		A3F246AB1E543F260021F2A5 /* Analysis */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Analysis;
+			sourceTree = "<group>";
+		};
+		A3F246AC1E543F370021F2A5 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		A3F246AF1E543F850021F2A5 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		A3F256711E51578500C042C0 /* Module */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,8 +295,8 @@
 		A3F256781E51579100C042C0 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				A3B0F8AA1E51ABF500B78A09 /* FosSDKExtensions.swift */,
 				A35CEAC41E52DF3B00F8208D /* UIColorExtension.swift */,
+				A3F246B41E5445120021F2A5 /* SDKExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -245,6 +304,8 @@
 		A3F256791E51579100C042C0 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				A3F246B21E5444B10021F2A5 /* SDKHelper.swift */,
+				A3F246BC1E54709F0021F2A5 /* DeviceHelper.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -325,6 +386,7 @@
 		A3F256891E51587600C042C0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A3F246BA1E5457780021F2A5 /* LanScanCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -339,6 +401,7 @@
 		A3F2568B1E51588000C042C0 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				A3F246B81E5452F40021F2A5 /* LanScanViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -560,6 +623,7 @@
 			files = (
 				A319AECB1E514E0F00B154D1 /* LaunchScreen.storyboard in Resources */,
 				A319AEC81E514E0F00B154D1 /* Assets.xcassets in Resources */,
+				A358B50B1E543B1700921DFC /* AddDevice@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -632,14 +696,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3F246BB1E5457780021F2A5 /* LanScanCell.swift in Sources */,
+				A3F246BD1E54709F0021F2A5 /* DeviceHelper.swift in Sources */,
+				A3F246B31E5444B10021F2A5 /* SDKHelper.swift in Sources */,
+				A3F246B91E5452F40021F2A5 /* LanScanViewController.swift in Sources */,
 				A319AEC11E514E0F00B154D1 /* AppDelegate.swift in Sources */,
 				A35CEAC51E52DF3B00F8208D /* UIColorExtension.swift in Sources */,
 				A33AA25F1E52D2080054DC12 /* JCNavigationController.swift in Sources */,
 				A36D99E81E52ADDD005EFD9F /* README.md in Sources */,
-				A3B0F8AB1E51ABF500B78A09 /* FosSDKExtensions.swift in Sources */,
 				A3440E9A1E52D8E6006ADEE9 /* HomeViewController.swift in Sources */,
 				A33AA2611E52D21C0054DC12 /* BaseViewController.swift in Sources */,
 				A35CEAC71E52E2C600F8208D /* Constants.swift in Sources */,
+				A3F246B51E5445120021F2A5 /* SDKExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

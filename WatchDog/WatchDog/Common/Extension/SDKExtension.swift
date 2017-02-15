@@ -1,8 +1,8 @@
 //
-//  FosSDKExtensions.swift
+//  SDKExtension.swift
 //  WatchDog
 //
-//  Created by JackChan on 2017/2/13.
+//  Created by JackChan on 2017/2/15.
 //  Copyright © 2017年 JackChan. All rights reserved.
 //
 
