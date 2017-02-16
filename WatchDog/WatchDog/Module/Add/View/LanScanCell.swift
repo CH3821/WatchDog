@@ -55,14 +55,14 @@ class LanScanCell: UITableViewCell {
     
     // MARK: - Private Methods
     func initializer() {
-        deviceNameLabel.textColor = Constants.Color.TableView.text
-        deviceNameLabel.font = Constants.Font.main
+        deviceNameLabel.textColor = UIConstants.Color.TextColor
+        deviceNameLabel.font = UIConstants.Font.Main
         
-        deviceIPLabel.textColor = Constants.Color.TableView.detail
-        deviceIPLabel.font = Constants.Font.tips
+        deviceIPLabel.textColor = UIConstants.Color.TipsColor
+        deviceIPLabel.font = UIConstants.Font.Tips
         
-        deviceUIDLabel.textColor = Constants.Color.TableView.tips
-        deviceUIDLabel.font = Constants.Font.help
+        deviceUIDLabel.textColor = UIConstants.Color.TipsColor
+        deviceUIDLabel.font = UIConstants.Font.Help
         
         self.addSubview(deviceNameLabel)
         self.addSubview(deviceIPLabel)

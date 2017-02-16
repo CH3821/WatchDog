@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		97A2A4CEDD68156094DADEB8 /* Pods_WatchDog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF1C45287667CDEEB236BB4 /* Pods_WatchDog.framework */; };
+		A30A778F1E5555CC00DDB7B3 /* JCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30A778E1E5555CC00DDB7B3 /* JCButton.swift */; };
+		A30A77911E55827C00DDB7B3 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30A77901E55827C00DDB7B3 /* UIImageExtension.swift */; };
+		A30A77991E559E4A00DDB7B3 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30A77981E559E4A00DDB7B3 /* UIConstants.swift */; };
 		A319AEC11E514E0F00B154D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A319AEC01E514E0F00B154D1 /* AppDelegate.swift */; };
 		A319AEC81E514E0F00B154D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A319AEC71E514E0F00B154D1 /* Assets.xcassets */; };
 		A319AECB1E514E0F00B154D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A319AEC91E514E0F00B154D1 /* LaunchScreen.storyboard */; };
@@ -18,7 +21,6 @@
 		A3440E9A1E52D8E6006ADEE9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3440E991E52D8E6006ADEE9 /* HomeViewController.swift */; };
 		A358B50B1E543B1700921DFC /* AddDevice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A358B50A1E543B1700921DFC /* AddDevice@2x.png */; };
 		A35CEAC51E52DF3B00F8208D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35CEAC41E52DF3B00F8208D /* UIColorExtension.swift */; };
-		A35CEAC71E52E2C600F8208D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35CEAC61E52E2C600F8208D /* Constants.swift */; };
 		A36D99E81E52ADDD005EFD9F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A36D99E71E52ADDD005EFD9F /* README.md */; };
 		A3B0F8971E515A8A00B78A09 /* libFosCrypt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B0F8941E515A8A00B78A09 /* libFosCrypt.a */; };
 		A3B0F8981E515A8A00B78A09 /* libFosSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B0F8951E515A8A00B78A09 /* libFosSdk.a */; };
@@ -51,6 +53,9 @@
 /* Begin PBXFileReference section */
 		143ABB071BE24C38C3C83715 /* Pods-WatchDog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchDog.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatchDog/Pods-WatchDog.release.xcconfig"; sourceTree = "<group>"; };
 		1659A0EB18D6343F302FA1B8 /* Pods-WatchDog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchDog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatchDog/Pods-WatchDog.debug.xcconfig"; sourceTree = "<group>"; };
+		A30A778E1E5555CC00DDB7B3 /* JCButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCButton.swift; sourceTree = "<group>"; };
+		A30A77901E55827C00DDB7B3 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		A30A77981E559E4A00DDB7B3 /* UIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 		A319AEBD1E514E0F00B154D1 /* WatchDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A319AEC01E514E0F00B154D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A319AEC71E514E0F00B154D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,7 +72,6 @@
 		A3440E991E52D8E6006ADEE9 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A358B50A1E543B1700921DFC /* AddDevice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AddDevice@2x.png"; sourceTree = "<group>"; };
 		A35CEAC41E52DF3B00F8208D /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
-		A35CEAC61E52E2C600F8208D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A36D99E71E52ADDD005EFD9F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A3B0F88F1E515A8A00B78A09 /* FosCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FosCrypt.h; sourceTree = "<group>"; };
 		A3B0F8901E515A8A00B78A09 /* FosDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FosDef.h; sourceTree = "<group>"; };
@@ -123,6 +127,14 @@
 				143ABB071BE24C38C3C83715 /* Pods-WatchDog.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A30A778D1E55558E00DDB7B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A30A778E1E5555CC00DDB7B3 /* JCButton.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		A319AEB41E514E0F00B154D1 = {
@@ -284,6 +296,7 @@
 			isa = PBXGroup;
 			children = (
 				A3F256981E5158EA00C042C0 /* Base */,
+				A30A778D1E55558E00DDB7B3 /* View */,
 				A3F256781E51579100C042C0 /* Extension */,
 				A3F256791E51579100C042C0 /* Manager */,
 				A3F2567A1E51579100C042C0 /* Model */,
@@ -297,6 +310,7 @@
 			children = (
 				A35CEAC41E52DF3B00F8208D /* UIColorExtension.swift */,
 				A3F246B41E5445120021F2A5 /* SDKExtension.swift */,
+				A30A77901E55827C00DDB7B3 /* UIImageExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -320,7 +334,7 @@
 		A3F2567B1E51579100C042C0 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				A35CEAC61E52E2C600F8208D /* Constants.swift */,
+				A30A77981E559E4A00DDB7B3 /* UIConstants.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -698,15 +712,17 @@
 			files = (
 				A3F246BB1E5457780021F2A5 /* LanScanCell.swift in Sources */,
 				A3F246BD1E54709F0021F2A5 /* DeviceHelper.swift in Sources */,
+				A30A77991E559E4A00DDB7B3 /* UIConstants.swift in Sources */,
+				A30A778F1E5555CC00DDB7B3 /* JCButton.swift in Sources */,
 				A3F246B31E5444B10021F2A5 /* SDKHelper.swift in Sources */,
 				A3F246B91E5452F40021F2A5 /* LanScanViewController.swift in Sources */,
 				A319AEC11E514E0F00B154D1 /* AppDelegate.swift in Sources */,
 				A35CEAC51E52DF3B00F8208D /* UIColorExtension.swift in Sources */,
 				A33AA25F1E52D2080054DC12 /* JCNavigationController.swift in Sources */,
 				A36D99E81E52ADDD005EFD9F /* README.md in Sources */,
+				A30A77911E55827C00DDB7B3 /* UIImageExtension.swift in Sources */,
 				A3440E9A1E52D8E6006ADEE9 /* HomeViewController.swift in Sources */,
 				A33AA2611E52D21C0054DC12 /* BaseViewController.swift in Sources */,
-				A35CEAC71E52E2C600F8208D /* Constants.swift in Sources */,
 				A3F246B51E5445120021F2A5 /* SDKExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

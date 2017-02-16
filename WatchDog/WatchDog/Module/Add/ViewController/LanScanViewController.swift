@@ -27,12 +27,12 @@ class LanScanViewController: BaseViewController {
     
     lazy var headerView: UIView = {
         let headerView = UIView()
-        headerView.backgroundColor = Constants.Color.View.background
+        headerView.backgroundColor = UIConstants.Color.BackgroundColor
         
         let headerLabel = UILabel()
-        headerLabel.textColor = Constants.Color.TableView.title
-        headerLabel.font = Constants.Font.main
-        headerLabel.backgroundColor = Constants.Color.View.background
+        headerLabel.textColor = UIConstants.Color.TextColor
+        headerLabel.font = UIConstants.Font.Main
+        headerLabel.backgroundColor = UIColor.clear
         headerLabel.text = self.headerTips
         
         headerView.addSubview(headerLabel)
@@ -52,6 +52,25 @@ class LanScanViewController: BaseViewController {
         }
     }
     
+    lazy var footerView: UIView = {
+        let footerView = UIView()
+        footerView.backgroundColor = UIConstants.Color.BackgroundColor
+        
+        let button = UIButton(type: .confirm)
+        button.setTitle("设备不在局域网", for: .normal)
+        button.addTarget(self, action: #selector(self.footerButtonDidTap(sender:)), for: .touchUpInside)
+        footerView.addSubview(button)
+        
+        button.snp.makeConstraints { (make) in
+            make.left.equalTo(footerView).offset(20)
+            make.right.equalTo(footerView).offset(-20)
+            make.centerY.equalTo(footerView)
+            make.height.equalTo(44)
+        }
+        
+        return footerView
+    }()
+    
     let rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .refresh, target: self, action: #selector(rightBarButtonDidTap(sender:)))
     
     // MARK: - Life Cycle
@@ -65,6 +84,8 @@ class LanScanViewController: BaseViewController {
         navigationItem.rightBarButtonItem = rightBarButtonItem
         
         layoutPageSubviews()
+        
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -87,6 +108,10 @@ class LanScanViewController: BaseViewController {
     // MARK: - Event Response
     func rightBarButtonDidTap(sender: UIButton) {
         fetchDeviceList()
+    }
+    
+    func footerButtonDidTap(sender: UIButton) {
+        print("footer Button Did Tap")
     }
     
     override func didReceiveMemoryWarning() {
@@ -134,6 +159,22 @@ extension LanScanViewController: UITableViewDelegate {
         }
         
         return headerView
+    }
+    
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        guard dataSource.count > 0 else {
+            return 0.0001
+        }
+        
+        return 89
+    }
+    
+    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+        guard dataSource.count > 0 else {
+            return nil
+        }
+        
+        return footerView
     }
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {

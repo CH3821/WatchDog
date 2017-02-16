@@ -14,9 +14,9 @@ class JCNavigationController: UINavigationController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        navigationBar.barTintColor = Constants.Color.NavigationController.barTint
-        navigationBar.titleTextAttributes = [NSFontAttributeName : Constants.Font.navigationBar,
-                                             NSForegroundColorAttributeName : Constants.Color.NavigationController.foreground]
+        navigationBar.barTintColor = UIConstants.Color.BlueColor
+        navigationBar.titleTextAttributes = [NSFontAttributeName : UIConstants.Font.NavigationBar,
+                                             NSForegroundColorAttributeName : UIColor.white]
         navigationBar.tintColor = UIColor.white
     }
 
