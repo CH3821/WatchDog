@@ -22,6 +22,7 @@
 		A358B50B1E543B1700921DFC /* AddDevice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A358B50A1E543B1700921DFC /* AddDevice@2x.png */; };
 		A35CEAC51E52DF3B00F8208D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35CEAC41E52DF3B00F8208D /* UIColorExtension.swift */; };
 		A36D99E81E52ADDD005EFD9F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A36D99E71E52ADDD005EFD9F /* README.md */; };
+		A382BB011E56DF56006E1D2F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A382BB001E56DF56006E1D2F /* Logger.swift */; };
 		A3B0F8971E515A8A00B78A09 /* libFosCrypt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B0F8941E515A8A00B78A09 /* libFosCrypt.a */; };
 		A3B0F8981E515A8A00B78A09 /* libFosSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B0F8951E515A8A00B78A09 /* libFosSdk.a */; };
 		A3B0F8991E515A8A00B78A09 /* libHWDecoder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B0F8961E515A8A00B78A09 /* libHWDecoder.a */; };
@@ -73,6 +74,7 @@
 		A358B50A1E543B1700921DFC /* AddDevice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AddDevice@2x.png"; sourceTree = "<group>"; };
 		A35CEAC41E52DF3B00F8208D /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		A36D99E71E52ADDD005EFD9F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A382BB001E56DF56006E1D2F /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		A3B0F88F1E515A8A00B78A09 /* FosCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FosCrypt.h; sourceTree = "<group>"; };
 		A3B0F8901E515A8A00B78A09 /* FosDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FosDef.h; sourceTree = "<group>"; };
 		A3B0F8911E515A8A00B78A09 /* fossdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fossdk.h; sourceTree = "<group>"; };
@@ -335,6 +337,7 @@
 			isa = PBXGroup;
 			children = (
 				A30A77981E559E4A00DDB7B3 /* UIConstants.swift */,
+				A382BB001E56DF56006E1D2F /* Logger.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -720,6 +723,7 @@
 				A35CEAC51E52DF3B00F8208D /* UIColorExtension.swift in Sources */,
 				A33AA25F1E52D2080054DC12 /* JCNavigationController.swift in Sources */,
 				A36D99E81E52ADDD005EFD9F /* README.md in Sources */,
+				A382BB011E56DF56006E1D2F /* Logger.swift in Sources */,
 				A30A77911E55827C00DDB7B3 /* UIImageExtension.swift in Sources */,
 				A3440E9A1E52D8E6006ADEE9 /* HomeViewController.swift in Sources */,
 				A33AA2611E52D21C0054DC12 /* BaseViewController.swift in Sources */,
