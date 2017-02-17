@@ -5,4 +5,5 @@ use_frameworks!
 target ‘WatchDog’ do
  pod ‘SnapKit’
  pod ‘Alamofire’
+ pod ‘XCGLogger’, '~> 4.0.0'
 end

@@ -1,15 +1,20 @@
 PODS:
   - Alamofire (4.0.1)
   - SnapKit (3.0.2)
+  - XCGLogger (4.0.0):
+    - XCGLogger/Core (= 4.0.0)
+  - XCGLogger/Core (4.0.0)
 
 DEPENDENCIES:
   - Alamofire
   - SnapKit
+  - XCGLogger (~> 4.0.0)
 
 SPEC CHECKSUMS:
   Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
   SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+  XCGLogger: 38063ea89b4c8b23232d18efd2e12eb0005f3ea4
 
-PODFILE CHECKSUM: 7e789bdd6da2915d501d3195b7e406c079a84370
+PODFILE CHECKSUM: 008c52d49018f9bad1f221ad390282076e5e406d
 
 COCOAPODS: 1.2.0.beta.1
