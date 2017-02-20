@@ -9,6 +9,8 @@
 import Foundation
 import XCGLogger
 
+let Log = Logger.defaultLogger
+
 struct Logger {
     
     static let defaultLogger: XCGLogger = {

@@ -179,7 +179,7 @@ extension LanScanViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         let thisCell = cell as! LanScanCell
-        var node = dataSource[indexPath.row]
+        let node = dataSource[indexPath.row]
         
         thisCell.deviceName = node.deviceName
         thisCell.deviceIP = "\(node.ipString):\(node.port)"
@@ -188,6 +188,13 @@ extension LanScanViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        
+        let node = dataSource[indexPath.row]
+        Log.debug("用户选择:\(node)")
+        
+        let createModel = CreateModel(node: node)
+        let vc = AddViewController(createModel: createModel)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
 }
