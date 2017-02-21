@@ -1,34 +1,47 @@
 //
-//  BaseViewController.swift
+//  TViewController.swift
 //  WatchDog
 //
-//  Created by JackChan on 2017/2/14.
+//  Created by JackChan on 2017/2/21.
 //  Copyright © 2017年 JackChan. All rights reserved.
 //
 
 import UIKit
+import SnapKit
 
-class BaseViewController: UIViewController {
+class TViewController: BaseViewController {
 
+    // MARK: - Properties
+    lazy var qrCodeView: QRCodeView = {
+        let qrCodeView = QRCodeView()
+        qrCodeView.delegate = self
+        return qrCodeView
+    }()
+    
     // MARK: - Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        view.backgroundColor = UIConstants.Color.BackgroundColor
-        navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+        title = "Scan"
+        view.addSubview(qrCodeView)
+        layoutPageSubviews()
     }
 
+    // MARK: - Private Methods
+    func layoutPageSubviews() {
+        qrCodeView.snp.makeConstraints { (make) in
+            make.edges.equalTo(view)
+        }
+    }
+    
+    // MARK: - Memory
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
 
-    deinit {
-        Log.debug("... \(self.className) deinit")
-    }
-    
     /*
     // MARK: - Navigation
 
@@ -41,19 +54,8 @@ class BaseViewController: UIViewController {
 
 }
 
-
-extension BaseViewController {
-    
-    override var prefersStatusBarHidden: Bool {
-        return false
+extension TViewController: QRCodeProtocol {
+    func qrCodeView(_ qrCodeView: QRCodeView, outputString: String) {
+        print(outputString)
     }
-    
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent
-    }
-    
-    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        return .portrait
-    }
-    
 }

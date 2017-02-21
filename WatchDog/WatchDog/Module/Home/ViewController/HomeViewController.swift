@@ -31,7 +31,7 @@ class HomeViewController: BaseViewController {
 
     // MARK: - Event Response
     func rightBarButtonDidTap(sender: UIButton) {
-        let vc = LanScanViewController()
+        let vc = TViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
     

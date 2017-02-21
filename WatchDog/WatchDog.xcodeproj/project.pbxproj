@@ -11,6 +11,8 @@
 		A30A778F1E5555CC00DDB7B3 /* JCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30A778E1E5555CC00DDB7B3 /* JCButton.swift */; };
 		A30A77911E55827C00DDB7B3 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30A77901E55827C00DDB7B3 /* UIImageExtension.swift */; };
 		A30A77991E559E4A00DDB7B3 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30A77981E559E4A00DDB7B3 /* UIConstants.swift */; };
+		A30AE4F61E5BDE6C00D326A6 /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30AE4F51E5BDE6C00D326A6 /* QRCodeViewController.swift */; };
+		A30AE4F81E5BEA2800D326A6 /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30AE4F71E5BEA2800D326A6 /* NSObjectExtension.swift */; };
 		A319AEC11E514E0F00B154D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A319AEC01E514E0F00B154D1 /* AppDelegate.swift */; };
 		A319AEC81E514E0F00B154D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A319AEC71E514E0F00B154D1 /* Assets.xcassets */; };
 		A319AECB1E514E0F00B154D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A319AEC91E514E0F00B154D1 /* LaunchScreen.storyboard */; };
@@ -31,6 +33,8 @@
 		A3B0F8981E515A8A00B78A09 /* libFosSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B0F8951E515A8A00B78A09 /* libFosSdk.a */; };
 		A3B0F8991E515A8A00B78A09 /* libHWDecoder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B0F8961E515A8A00B78A09 /* libHWDecoder.a */; };
 		A3B0F89F1E51622B00B78A09 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B0F89E1E51622B00B78A09 /* libstdc++.tbd */; };
+		A3E404351E5C200A008423AC /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E404341E5C200A008423AC /* QRCodeView.swift */; };
+		A3E404371E5C2029008423AC /* TViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E404361E5C2029008423AC /* TViewController.swift */; };
 		A3F246B31E5444B10021F2A5 /* SDKHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F246B21E5444B10021F2A5 /* SDKHelper.swift */; };
 		A3F246B51E5445120021F2A5 /* SDKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F246B41E5445120021F2A5 /* SDKExtension.swift */; };
 		A3F246B91E5452F40021F2A5 /* LanScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F246B81E5452F40021F2A5 /* LanScanViewController.swift */; };
@@ -61,6 +65,8 @@
 		A30A778E1E5555CC00DDB7B3 /* JCButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCButton.swift; sourceTree = "<group>"; };
 		A30A77901E55827C00DDB7B3 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		A30A77981E559E4A00DDB7B3 /* UIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
+		A30AE4F51E5BDE6C00D326A6 /* QRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		A30AE4F71E5BEA2800D326A6 /* NSObjectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
 		A319AEBD1E514E0F00B154D1 /* WatchDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A319AEC01E514E0F00B154D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A319AEC71E514E0F00B154D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -92,6 +98,8 @@
 		A3B0F8961E515A8A00B78A09 /* libHWDecoder.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHWDecoder.a; sourceTree = "<group>"; };
 		A3B0F89A1E515E4500B78A09 /* WatchDog-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WatchDog-Bridging-Header.h"; sourceTree = "<group>"; };
 		A3B0F89E1E51622B00B78A09 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		A3E404341E5C200A008423AC /* QRCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		A3E404361E5C2029008423AC /* TViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TViewController.swift; sourceTree = "<group>"; };
 		A3F246B21E5444B10021F2A5 /* SDKHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKHelper.swift; sourceTree = "<group>"; };
 		A3F246B41E5445120021F2A5 /* SDKExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKExtension.swift; sourceTree = "<group>"; };
 		A3F246B81E5452F40021F2A5 /* LanScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanScanViewController.swift; sourceTree = "<group>"; };
@@ -143,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				A30A778E1E5555CC00DDB7B3 /* JCButton.swift */,
+				A3E404341E5C200A008423AC /* QRCodeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -322,6 +331,7 @@
 				A3F246B41E5445120021F2A5 /* SDKExtension.swift */,
 				A30A77901E55827C00DDB7B3 /* UIImageExtension.swift */,
 				A33526001E5AF3A000B968F4 /* StringExtension.swift */,
+				A30AE4F71E5BEA2800D326A6 /* NSObjectExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -431,6 +441,7 @@
 			children = (
 				A3F246B81E5452F40021F2A5 /* LanScanViewController.swift */,
 				A33525FA1E5AE0BE00B968F4 /* AddViewController.swift */,
+				A30AE4F51E5BDE6C00D326A6 /* QRCodeViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -474,6 +485,7 @@
 			isa = PBXGroup;
 			children = (
 				A3440E991E52D8E6006ADEE9 /* HomeViewController.swift */,
+				A3E404361E5C2029008423AC /* TViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -732,17 +744,21 @@
 				A30A778F1E5555CC00DDB7B3 /* JCButton.swift in Sources */,
 				A3F246B31E5444B10021F2A5 /* SDKHelper.swift in Sources */,
 				A3F246B91E5452F40021F2A5 /* LanScanViewController.swift in Sources */,
+				A30AE4F81E5BEA2800D326A6 /* NSObjectExtension.swift in Sources */,
 				A33525FB1E5AE0BE00B968F4 /* AddViewController.swift in Sources */,
 				A319AEC11E514E0F00B154D1 /* AppDelegate.swift in Sources */,
 				A35CEAC51E52DF3B00F8208D /* UIColorExtension.swift in Sources */,
 				A33AA25F1E52D2080054DC12 /* JCNavigationController.swift in Sources */,
 				A33525FF1E5AE7CD00B968F4 /* AddDevice.swift in Sources */,
 				A36D99E81E52ADDD005EFD9F /* README.md in Sources */,
+				A3E404351E5C200A008423AC /* QRCodeView.swift in Sources */,
 				A382BB011E56DF56006E1D2F /* Logger.swift in Sources */,
+				A30AE4F61E5BDE6C00D326A6 /* QRCodeViewController.swift in Sources */,
 				A30A77911E55827C00DDB7B3 /* UIImageExtension.swift in Sources */,
 				A3440E9A1E52D8E6006ADEE9 /* HomeViewController.swift in Sources */,
 				A33526011E5AF3A000B968F4 /* StringExtension.swift in Sources */,
 				A33AA2611E52D21C0054DC12 /* BaseViewController.swift in Sources */,
+				A3E404371E5C2029008423AC /* TViewController.swift in Sources */,
 				A3F246B51E5445120021F2A5 /* SDKExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
