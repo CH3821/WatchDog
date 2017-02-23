@@ -52,9 +52,21 @@ class QRCodeView: UIView {
     
     let qrSize = CGSize(width: 200, height: 200)
     
-    lazy var leftMaskView = UIView.maskView()
+    let leftMaskView = UIView.maskView()
     
-    lazy var rightMaskView = UIView.maskView()
+    let rightMaskView = UIView.maskView()
+    
+    let topMaskView = UIView.maskView()
+    
+    let bottomMaskView = UIView.maskView()
+    
+    let leftTopCornerImageView = UIImageView(image: UIImage(named: "QRCodeCorner_LeftTop"))
+    
+    let rightTopCornerImageView = UIImageView(image: UIImage(named: "QRCodeCorner_RightTop"))
+    
+    let leftBottomCornerImageView = UIImageView(image: UIImage(named: "QRCodeCorner_LeftBottom"))
+    
+    let rightBottomCornerImageView = UIImageView(image: UIImage(named: "QRCodeCorner_RightBottom"))
     
     // MARK: - Life Cycle
     override init(frame: CGRect) {
@@ -113,24 +125,70 @@ class QRCodeView: UIView {
                 strongSelf.deviceOutput.metadataOutputRectOfInterest(for: CGRect(x: 100, y: 100, width: 200, height: 200))
             }
         }
-        /*
+        
         addSubview(leftMaskView)
         addSubview(rightMaskView)
-        */
+        addSubview(topMaskView)
+        addSubview(bottomMaskView)
+        
+        addSubview(leftTopCornerImageView)
+        addSubview(rightTopCornerImageView)
+        addSubview(leftBottomCornerImageView)
+        addSubview(rightBottomCornerImageView)
+        
         layoutPageSubviews()
     }
     
     func layoutPageSubviews() {
-        /*
+        
         leftMaskView.snp.makeConstraints { (make) in
             make.top.bottom.left.equalTo(self)
-            make.centerX.equalTo(self).multipliedBy(0.25)
+            make.centerX.equalTo(self).multipliedBy(0.5).offset(-(qrSize.width / 4))
         }
         
         rightMaskView.snp.makeConstraints { (make) in
             make.top.bottom.right.equalTo(self)
-            make.centerX.equalTo(self).multipliedBy(0.75)
-        }*/
+            make.centerX.equalTo(self).multipliedBy(1.5).offset(qrSize.width / 4)
+        }
+        
+        topMaskView.snp.makeConstraints { (make) in
+            make.top.equalTo(leftMaskView)
+            make.left.equalTo(leftMaskView.snp.right)
+            make.right.equalTo(rightMaskView.snp.left)
+            make.centerY.equalTo(self).multipliedBy(0.5).offset(-(qrSize.height / 4))
+        }
+        
+        bottomMaskView.snp.makeConstraints { (make) in
+            make.left.right.equalTo(topMaskView)
+            make.bottom.equalTo(leftMaskView)
+            make.centerY.equalTo(self).multipliedBy(1.5).offset(qrSize.height / 4)
+        }
+        
+        let cornerSize = CGSize(width: 16, height: 16)
+        
+        leftTopCornerImageView.snp.makeConstraints { (make) in
+            make.top.equalTo(topMaskView.snp.bottom)
+            make.left.equalTo(leftMaskView.snp.right)
+            make.size.equalTo(cornerSize)
+        }
+        
+        rightTopCornerImageView.snp.makeConstraints { (make) in
+            make.top.equalTo(leftTopCornerImageView)
+            make.right.equalTo(rightMaskView.snp.left)
+            make.size.equalTo(cornerSize)
+        }
+        
+        leftBottomCornerImageView.snp.makeConstraints { (make) in
+            make.left.equalTo(leftTopCornerImageView)
+            make.bottom.equalTo(bottomMaskView.snp.top)
+            make.size.equalTo(cornerSize)
+        }
+        
+        rightBottomCornerImageView.snp.makeConstraints { (make) in
+            make.right.equalTo(rightTopCornerImageView)
+            make.bottom.equalTo(leftBottomCornerImageView)
+            make.size.equalTo(cornerSize)
+        }
     }
 }
 

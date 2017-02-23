@@ -35,6 +35,16 @@
 		A3B0F89F1E51622B00B78A09 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B0F89E1E51622B00B78A09 /* libstdc++.tbd */; };
 		A3E404351E5C200A008423AC /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E404341E5C200A008423AC /* QRCodeView.swift */; };
 		A3E404371E5C2029008423AC /* TViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E404361E5C2029008423AC /* TViewController.swift */; };
+		A3E632EA1E5EEAF5006463CB /* QRCodeCorner_LeftBottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E632E01E5EEAF5006463CB /* QRCodeCorner_LeftBottom@2x.png */; };
+		A3E632EB1E5EEAF5006463CB /* QRCodeCorner_LeftBottom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E632E11E5EEAF5006463CB /* QRCodeCorner_LeftBottom@3x.png */; };
+		A3E632EC1E5EEAF5006463CB /* QRCodeCorner_LeftTop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E632E21E5EEAF5006463CB /* QRCodeCorner_LeftTop@2x.png */; };
+		A3E632ED1E5EEAF5006463CB /* QRCodeCorner_LeftTop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E632E31E5EEAF5006463CB /* QRCodeCorner_LeftTop@3x.png */; };
+		A3E632EE1E5EEAF5006463CB /* QRCodeCorner_RightBottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E632E41E5EEAF5006463CB /* QRCodeCorner_RightBottom@2x.png */; };
+		A3E632EF1E5EEAF5006463CB /* QRCodeCorner_RightBottom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E632E51E5EEAF5006463CB /* QRCodeCorner_RightBottom@3x.png */; };
+		A3E632F01E5EEAF5006463CB /* QRCodeCorner_RightTop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E632E61E5EEAF5006463CB /* QRCodeCorner_RightTop@2x.png */; };
+		A3E632F11E5EEAF5006463CB /* QRCodeCorner_RightTop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E632E71E5EEAF5006463CB /* QRCodeCorner_RightTop@3x.png */; };
+		A3E632F21E5EEAF5006463CB /* QRScanLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E632E81E5EEAF5006463CB /* QRScanLine@2x.png */; };
+		A3E632F31E5EEAF5006463CB /* QRScanLine@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E632E91E5EEAF5006463CB /* QRScanLine@3x.png */; };
 		A3F246B31E5444B10021F2A5 /* SDKHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F246B21E5444B10021F2A5 /* SDKHelper.swift */; };
 		A3F246B51E5445120021F2A5 /* SDKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F246B41E5445120021F2A5 /* SDKExtension.swift */; };
 		A3F246B91E5452F40021F2A5 /* LanScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F246B81E5452F40021F2A5 /* LanScanViewController.swift */; };
@@ -100,6 +110,16 @@
 		A3B0F89E1E51622B00B78A09 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		A3E404341E5C200A008423AC /* QRCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
 		A3E404361E5C2029008423AC /* TViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TViewController.swift; sourceTree = "<group>"; };
+		A3E632E01E5EEAF5006463CB /* QRCodeCorner_LeftBottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRCodeCorner_LeftBottom@2x.png"; sourceTree = "<group>"; };
+		A3E632E11E5EEAF5006463CB /* QRCodeCorner_LeftBottom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRCodeCorner_LeftBottom@3x.png"; sourceTree = "<group>"; };
+		A3E632E21E5EEAF5006463CB /* QRCodeCorner_LeftTop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRCodeCorner_LeftTop@2x.png"; sourceTree = "<group>"; };
+		A3E632E31E5EEAF5006463CB /* QRCodeCorner_LeftTop@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRCodeCorner_LeftTop@3x.png"; sourceTree = "<group>"; };
+		A3E632E41E5EEAF5006463CB /* QRCodeCorner_RightBottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRCodeCorner_RightBottom@2x.png"; sourceTree = "<group>"; };
+		A3E632E51E5EEAF5006463CB /* QRCodeCorner_RightBottom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRCodeCorner_RightBottom@3x.png"; sourceTree = "<group>"; };
+		A3E632E61E5EEAF5006463CB /* QRCodeCorner_RightTop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRCodeCorner_RightTop@2x.png"; sourceTree = "<group>"; };
+		A3E632E71E5EEAF5006463CB /* QRCodeCorner_RightTop@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRCodeCorner_RightTop@3x.png"; sourceTree = "<group>"; };
+		A3E632E81E5EEAF5006463CB /* QRScanLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRScanLine@2x.png"; sourceTree = "<group>"; };
+		A3E632E91E5EEAF5006463CB /* QRScanLine@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRScanLine@3x.png"; sourceTree = "<group>"; };
 		A3F246B21E5444B10021F2A5 /* SDKHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKHelper.swift; sourceTree = "<group>"; };
 		A3F246B41E5445120021F2A5 /* SDKExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKExtension.swift; sourceTree = "<group>"; };
 		A3F246B81E5452F40021F2A5 /* LanScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanScanViewController.swift; sourceTree = "<group>"; };
@@ -271,9 +291,27 @@
 			path = lib;
 			sourceTree = "<group>";
 		};
+		A3E632DF1E5EEAF5006463CB /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				A3E632E01E5EEAF5006463CB /* QRCodeCorner_LeftBottom@2x.png */,
+				A3E632E11E5EEAF5006463CB /* QRCodeCorner_LeftBottom@3x.png */,
+				A3E632E21E5EEAF5006463CB /* QRCodeCorner_LeftTop@2x.png */,
+				A3E632E31E5EEAF5006463CB /* QRCodeCorner_LeftTop@3x.png */,
+				A3E632E41E5EEAF5006463CB /* QRCodeCorner_RightBottom@2x.png */,
+				A3E632E51E5EEAF5006463CB /* QRCodeCorner_RightBottom@3x.png */,
+				A3E632E61E5EEAF5006463CB /* QRCodeCorner_RightTop@2x.png */,
+				A3E632E71E5EEAF5006463CB /* QRCodeCorner_RightTop@3x.png */,
+				A3E632E81E5EEAF5006463CB /* QRScanLine@2x.png */,
+				A3E632E91E5EEAF5006463CB /* QRScanLine@3x.png */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
 		A3F246AA1E543F1C0021F2A5 /* Add */ = {
 			isa = PBXGroup;
 			children = (
+				A3E632DF1E5EEAF5006463CB /* QRCode */,
 			);
 			path = Add;
 			sourceTree = "<group>";
@@ -662,9 +700,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3E632EB1E5EEAF5006463CB /* QRCodeCorner_LeftBottom@3x.png in Resources */,
 				A319AECB1E514E0F00B154D1 /* LaunchScreen.storyboard in Resources */,
+				A3E632ED1E5EEAF5006463CB /* QRCodeCorner_LeftTop@3x.png in Resources */,
+				A3E632EC1E5EEAF5006463CB /* QRCodeCorner_LeftTop@2x.png in Resources */,
+				A3E632F01E5EEAF5006463CB /* QRCodeCorner_RightTop@2x.png in Resources */,
+				A3E632EF1E5EEAF5006463CB /* QRCodeCorner_RightBottom@3x.png in Resources */,
+				A3E632EA1E5EEAF5006463CB /* QRCodeCorner_LeftBottom@2x.png in Resources */,
+				A3E632EE1E5EEAF5006463CB /* QRCodeCorner_RightBottom@2x.png in Resources */,
+				A3E632F31E5EEAF5006463CB /* QRScanLine@3x.png in Resources */,
 				A319AEC81E514E0F00B154D1 /* Assets.xcassets in Resources */,
 				A358B50B1E543B1700921DFC /* AddDevice@2x.png in Resources */,
+				A3E632F21E5EEAF5006463CB /* QRScanLine@2x.png in Resources */,
+				A3E632F11E5EEAF5006463CB /* QRCodeCorner_RightTop@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
