@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42A0B8421E855E7F00BC47C8 /* MethodProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A0B8411E855E7F00BC47C8 /* MethodProtocol.swift */; };
+		42A0B8441E855EC200BC47C8 /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A0B8431E855EC200BC47C8 /* DeviceModel.swift */; };
+		42A0B8461E855F3900BC47C8 /* DeviceSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A0B8451E855F3900BC47C8 /* DeviceSource.swift */; };
 		97A2A4CEDD68156094DADEB8 /* Pods_WatchDog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF1C45287667CDEEB236BB4 /* Pods_WatchDog.framework */; };
 		A30A778F1E5555CC00DDB7B3 /* JCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30A778E1E5555CC00DDB7B3 /* JCButton.swift */; };
 		A30A77911E55827C00DDB7B3 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30A77901E55827C00DDB7B3 /* UIImageExtension.swift */; };
@@ -72,6 +75,9 @@
 /* Begin PBXFileReference section */
 		143ABB071BE24C38C3C83715 /* Pods-WatchDog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchDog.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatchDog/Pods-WatchDog.release.xcconfig"; sourceTree = "<group>"; };
 		1659A0EB18D6343F302FA1B8 /* Pods-WatchDog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchDog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatchDog/Pods-WatchDog.debug.xcconfig"; sourceTree = "<group>"; };
+		42A0B8411E855E7F00BC47C8 /* MethodProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MethodProtocol.swift; sourceTree = "<group>"; };
+		42A0B8431E855EC200BC47C8 /* DeviceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
+		42A0B8451E855F3900BC47C8 /* DeviceSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceSource.swift; sourceTree = "<group>"; };
 		A30A778E1E5555CC00DDB7B3 /* JCButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCButton.swift; sourceTree = "<group>"; };
 		A30A77901E55827C00DDB7B3 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		A30A77981E559E4A00DDB7B3 /* UIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
@@ -165,6 +171,14 @@
 				143ABB071BE24C38C3C83715 /* Pods-WatchDog.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		42A0B8401E855D1E00BC47C8 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				42A0B8411E855E7F00BC47C8 /* MethodProtocol.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		A30A778D1E55558E00DDB7B3 /* View */ = {
@@ -352,6 +366,7 @@
 		A3F256771E51579100C042C0 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				42A0B8401E855D1E00BC47C8 /* Protocol */,
 				A3F256981E5158EA00C042C0 /* Base */,
 				A30A778D1E55558E00DDB7B3 /* View */,
 				A3F256781E51579100C042C0 /* Extension */,
@@ -380,6 +395,7 @@
 				A3F246B21E5444B10021F2A5 /* SDKHelper.swift */,
 				A3F246BC1E54709F0021F2A5 /* DeviceHelper.swift */,
 				A33525FE1E5AE7CD00B968F4 /* AddDevice.swift */,
+				42A0B8451E855F3900BC47C8 /* DeviceSource.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -388,6 +404,7 @@
 			isa = PBXGroup;
 			children = (
 				A3499F141E5AD10A0009727C /* CreateModel.swift */,
+				42A0B8431E855EC200BC47C8 /* DeviceModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -659,7 +676,7 @@
 				TargetAttributes = {
 					A319AEBC1E514E0F00B154D1 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = W5KEXW3PPD;
+						DevelopmentTeam = U9UA74RVD8;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Manual;
 					};
@@ -795,7 +812,10 @@
 				A30AE4F81E5BEA2800D326A6 /* NSObjectExtension.swift in Sources */,
 				A33525FB1E5AE0BE00B968F4 /* AddViewController.swift in Sources */,
 				A319AEC11E514E0F00B154D1 /* AppDelegate.swift in Sources */,
+				42A0B8461E855F3900BC47C8 /* DeviceSource.swift in Sources */,
+				42A0B8421E855E7F00BC47C8 /* MethodProtocol.swift in Sources */,
 				A35CEAC51E52DF3B00F8208D /* UIColorExtension.swift in Sources */,
+				42A0B8441E855EC200BC47C8 /* DeviceModel.swift in Sources */,
 				A33AA25F1E52D2080054DC12 /* JCNavigationController.swift in Sources */,
 				A33525FF1E5AE7CD00B968F4 /* AddDevice.swift in Sources */,
 				A36D99E81E52ADDD005EFD9F /* README.md in Sources */,
@@ -953,7 +973,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = W5KEXW3PPD;
+				DEVELOPMENT_TEAM = U9UA74RVD8;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = WatchDog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -961,10 +981,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/WatchDog/Venders/FosSDK/lib",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.foscam.Fosbaby;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fostartech.CloudIPC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "77f06a34-8c00-40e1-baf7-503f2351148d";
-				PROVISIONING_PROFILE_SPECIFIER = Fosbaby_Dev;
+				PROVISIONING_PROFILE = "bc9dc742-d5f7-4e31-9fea-5bfdcdafa4ec";
+				PROVISIONING_PROFILE_SPECIFIER = "Cloud IPC_Dev";
 				SWIFT_OBJC_BRIDGING_HEADER = "WatchDog/WatchDog-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -981,7 +1001,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = W5KEXW3PPD;
+				DEVELOPMENT_TEAM = U9UA74RVD8;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = WatchDog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -989,10 +1009,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/WatchDog/Venders/FosSDK/lib",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.foscam.Fosbaby;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fostartech.CloudIPC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "eefe0cae-df2c-4799-938e-9da30a85166a";
-				PROVISIONING_PROFILE_SPECIFIER = Fosbaby_AdHoc;
+				PROVISIONING_PROFILE = "e228db7f-7ed3-4b4f-be76-887db3fa511e";
+				PROVISIONING_PROFILE_SPECIFIER = "Cloud IPC_AdHoc";
 				SWIFT_OBJC_BRIDGING_HEADER = "WatchDog/WatchDog-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				VALID_ARCHS = "arm64 armv7";
