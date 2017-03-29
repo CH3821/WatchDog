@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.0.1)
+  - MBProgressHUD (1.0.0)
   - SnapKit (3.0.2)
   - XCGLogger (4.0.0):
     - XCGLogger/Core (= 4.0.0)
@@ -7,14 +8,16 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - MBProgressHUD
   - SnapKit
   - XCGLogger (~> 4.0.0)
 
 SPEC CHECKSUMS:
   Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
   XCGLogger: 38063ea89b4c8b23232d18efd2e12eb0005f3ea4
 
-PODFILE CHECKSUM: 008c52d49018f9bad1f221ad390282076e5e406d
+PODFILE CHECKSUM: b7d9e089113a9240f3beec6beca5938d2f5b464a
 
-COCOAPODS: 1.2.0.beta.1
+COCOAPODS: 1.2.0
